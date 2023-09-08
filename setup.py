@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as f:
-    long_description = f.read()    
-    
+    long_description = f.read()
+
 setup(
     name="khmer_latin_name_transformer",
-    version="0.0.2",
+    version="0.0.3",
     description="Transform Khmer Personal Name into Latin and vice-versa.",
     long_description=long_description,
     long_description_content_type="text/markdown",

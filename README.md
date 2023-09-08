@@ -2,6 +2,9 @@
 
 Transform **Khmer Personal Name** into Latin and vice-versa.
 
+[[Google Colab]](https://colab.research.google.com/drive/17r-9ubY_oGWfQMaaH2xFPPS8DKe1fsvi?usp=sharing)
+
+
 **Important!**
 
 Make sure you have `pynini` installed on your current environment before install this library. To install `pynini`, use this
