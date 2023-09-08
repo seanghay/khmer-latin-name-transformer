@@ -12,8 +12,8 @@ conda install -c conda-forge pynini
 
 Install khmer_latin_name_transformer from PyPI
 
-```python
-pip install khmer_latin_name_transformer
+```shell
+pip install khmer-latin-name-transformer
 ```
 
 ## Usage
