@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="khmer_latin_name_transformer",
-    version="0.0.3",
+    version="0.0.4",
     description="Transform Khmer Personal Name into Latin and vice-versa.",
     long_description=long_description,
     long_description_content_type="text/markdown",
