@@ -23,7 +23,7 @@ setup(
     packages=find_packages(),
     package_dir={"khmer_latin_name_transformer": "khmer_latin_name_transformer"},
     package_data={
-        "khmer_latin_name_transformer": ["latin_km_names.fst", "km_latin_names.fst"]
+        "khmer_latin_name_transformer": ["latin_km_names.fst", "km_latin_names.fst", "km_pronounce.fst"]
     },
     include_package_data=True,
     install_requires=[
