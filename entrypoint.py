@@ -21,8 +21,6 @@ def safe_to_khmer(input):
     except:
         return None
     
-
-
 if __name__ == "__main__":
     parser = ArgumentParser("entrypoint.py", description="Transform Text to Text")
     parser.add_argument(
@@ -46,4 +44,9 @@ if __name__ == "__main__":
             with open(file) as infile:
                 items = [line.strip() for line in infile]
                 for item in pool.imap(transformers[args.to], items):
-                    print(item)
+                    if item is None or not item.strip():
+                        print("")
+                        continue;
+                    print(item);
+                    
+                    
