@@ -43,6 +43,34 @@ to_khmer_pronounce("និន្ទ្រា")
 # => និន-ទ្រា
 ```
 
+
+## Docker CLI
+
+Let's say you have a file like below called `sample.txt` and separated by new line
+
+```
+សុខ លីណា
+គឹម សុខា
+ជា សីហា
+```
+
+To convert them to latin forms, run
+
+```shell
+docker run -it --rm -v "$PWD/sample.txt:/app/sample.txt" \
+  ghcr.io/seanghay/khmer-latin-name-transformer sample.txt -t latin > output.txt
+```
+
+`output.txt` will be
+
+```
+SOK LINA
+KIM SOKHA
+CHEA SYHA
+```
+
+---
+
 ## License
 
 `Apache 2.0`
