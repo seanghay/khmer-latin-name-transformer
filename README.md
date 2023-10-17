@@ -69,6 +69,22 @@ KIM SOKHA
 CHEA SYHA
 ```
 
+### Command-line Info
+
+```
+usage: transform.py [-h] -t {khmer,latin,pro} [-j JOB] files [files ...]
+
+Transform Text to Text
+
+positional arguments:
+  files                 Path to input file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t {khmer,latin,pro}, --to {khmer,latin,pro}
+  -j JOB, --job JOB     Number of processors
+```
+
 ---
 
 ## License
